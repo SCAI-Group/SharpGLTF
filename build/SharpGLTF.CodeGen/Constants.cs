@@ -7,8 +7,11 @@ namespace SharpGLTF
     static class Constants
     {
         #region root paths
+        
+        //public static string RemoteSchemaRepo = "https://github.com/KhronosGroup/glTF.git";
+        public static string RemoteSchemaRepo = "https://github.com/CesiumGS/glTF.git";
 
-        public static string RemoteSchemaRepo = "https://github.com/KhronosGroup/glTF.git";
+        public static string RemoteSchemaBranch = "3d-tiles-next";
 
         /// <summary>
         /// Program directory
