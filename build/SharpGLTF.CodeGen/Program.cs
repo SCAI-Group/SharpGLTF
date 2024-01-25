@@ -63,13 +63,6 @@ namespace SharpGLTF
             // other
             processors.Add(new XmpJsonLdExtension());
 
-            processors.Add(new ExtMeshFeaturesExtension());
-
-            processors.Add(new ExtInstanceFeaturesExtension());
-
-            processors.Add(new ExtStructuralMetadataExtension());
-
-
             // ----------------------------------------------  process all files
 
             foreach (var processor in processors)

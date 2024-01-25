@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace SharpGLTF
 {
-    class ExtMeshFeaturesExtension : SchemaProcessor
+    class MeshFeaturesExtension : SchemaProcessor
     {
         public override string GetTargetProject() { return Constants.CesiumProjectDirectory; }
     

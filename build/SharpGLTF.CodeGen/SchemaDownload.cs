@@ -15,7 +15,7 @@ namespace SharpGLTF
             {
                 Console.WriteLine($"Cloning {remoteUrl} can take several minutes; Please wait...");
 
-                LibGit2Sharp.Repository.Clone(remoteUrl, localDirectory, new CloneOptions() { BranchName = remoteBranch });
+                LibGit2Sharp.Repository.Clone(remoteUrl, localDirectory, new LibGit2Sharp.CloneOptions() { BranchName = remoteBranch });
 
                 Console.WriteLine($"... Clone Completed");
 
