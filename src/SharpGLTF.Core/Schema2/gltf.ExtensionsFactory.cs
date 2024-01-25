@@ -56,6 +56,10 @@ namespace SharpGLTF.Schema2
 
             RegisterExtension<ModelRoot, XmpPackets>("KHR_xmp_json_ld", p => new XmpPackets(p));
             RegisterExtension<ExtraProperties, XmpPacketReference>("KHR_xmp_json_ld", p => new XmpPacketReference(p));                        
+
+            RegisterExtension<Node, InstanceFeatures>("EXT_instance_features", p => new InstanceFeatures(p));
+            RegisterExtension<MeshPrimitive, MeshFeatures>("EXT_mesh_features", p => new MeshFeatures(p));
+            RegisterExtension<ModelRoot, StructuralMetadata>("EXT_structural_metadata", p => new StructuralMetadata(p));
         }
 
         #endregion
