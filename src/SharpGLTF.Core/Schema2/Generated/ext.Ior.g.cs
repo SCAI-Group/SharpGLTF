@@ -34,7 +34,7 @@ namespace SharpGLTF.Schema2
 	[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicConstructors | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]
 	#endif
 	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("SharpGLTF.CodeGen", "1.0.0.0")]
-	partial class MaterialIOR : ExtraProperties
+	partial class KHR_materials_iorglTFextension : ExtraProperties
 	{
 	
 		private const Double _iorDefault = 1.5;
