@@ -14,8 +14,8 @@ namespace SharpGLTF
 
         private static string PropSchemaUri => Constants.KhronosExtensionPath("KHR_xmp_json_ld", "KHR_xmp_json_ld.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_xmp_json_ld glTF Document Extension";
-        private const string ExtensionPropClassName = "KHR_xmp_json_ld glTF Extension";
+        private const string ExtensionRootClassName = "KHR_xmp_json_ld glTF extension";
+        private const string ExtensionPropClassName = "KHR_xmp_json_ld extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

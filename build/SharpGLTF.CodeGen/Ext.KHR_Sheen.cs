@@ -8,9 +8,9 @@ namespace SharpGLTF
 {
     class SheenExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_sheen", "material.KHR_materials_sheen.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_sheen", "glTF.KHR_materials_sheen.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_materials_sheen glTF Material Extension";
+        private const string ExtensionRootClassName = "KHR_materials_sheen glTF extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

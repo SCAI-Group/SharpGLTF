@@ -11,10 +11,10 @@ namespace SharpGLTF
         private static string RootSchemaUri => Constants.KhronosExtensionPath("KHR_lights_punctual", "glTF.KHR_lights_punctual.schema.json");
         private static string NodeSchemaUri => Constants.KhronosExtensionPath("KHR_lights_punctual", "node.KHR_lights_punctual.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_lights_punctual glTF Document Extension";
-        private const string ExtensionNodeClassName = "KHR_lights_punctual glTF Node Extension";
-        private const string ExtensionLightClassName = "KHR_lights_punctual Light Properties";
-        private const string ExtensionLightSpotClassName = "KHR_lights_punctual Light Spot Properties";
+        private const string ExtensionRootClassName = "KHR_lights_punctual glTF extension";
+        private const string ExtensionNodeClassName = "KHR_lights_punctual node extension";
+        private const string ExtensionLightClassName = "light";
+        private const string ExtensionLightSpotClassName = "light/spot";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {            

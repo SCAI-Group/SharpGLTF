@@ -8,7 +8,7 @@ namespace SharpGLTF
 {
     class TransmissionExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_transmission", "material.KHR_materials_transmission.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_transmission", "gltf.KHR_materials_transmission.schema.json");
 
         private const string ExtensionRootClassName = "KHR_materials_transmission glTF Material Extension";
 

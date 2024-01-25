@@ -8,9 +8,9 @@ namespace SharpGLTF
 {
     class ClearCoatExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_clearcoat", "material.KHR_materials_clearcoat.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_clearcoat", "glTF.KHR_materials_clearcoat.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_materials_clearcoat glTF Material Extension";
+        private const string ExtensionRootClassName = "KHR_materials_clearcoat glTF extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

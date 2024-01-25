@@ -7,9 +7,9 @@ namespace SharpGLTF
 {
     class VolumeExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_volume", "material.KHR_materials_volume.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_volume", "glTF.KHR_materials_volume.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_materials_volume glTF Material Extension";
+        private const string ExtensionRootClassName = "KHR_materials_volume glTF extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

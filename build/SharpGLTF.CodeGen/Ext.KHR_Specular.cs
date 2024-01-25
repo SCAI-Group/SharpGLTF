@@ -8,9 +8,9 @@ namespace SharpGLTF
 {
     class SpecularExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_specular", "material.KHR_materials_specular.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_specular", "glTF.KHR_materials_specular.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_materials_specular glTF Material Extension";
+        private const string ExtensionRootClassName = "KHR_materials_specular glTF extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

@@ -8,9 +8,9 @@ namespace SharpGLTF
 {
     class TextureTransformExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_texture_transform", "textureInfo.KHR_texture_transform.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_texture_transform", "KHR_texture_transform.textureInfo.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_texture_transform glTF TextureInfo Extension";
+        private const string ExtensionRootClassName = "KHR_texture_transform textureInfo extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

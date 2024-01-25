@@ -7,9 +7,9 @@ namespace SharpGLTF
 {
     class EmissiveStrengthExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_emissive_strength", "material.KHR_materials_emissive_strength.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_emissive_strength", "glTF.KHR_materials_emissive_strength.schema.json");
 
-        private const string ExtensionRootClassName = "KHR_materials_emissive_strength glTF Material Extension";
+        private const string ExtensionRootClassName = "KHR_materials_emissive_strength glTF extension";
 
         public override IEnumerable<(string, SchemaType.Context)> Process()
         {

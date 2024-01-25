@@ -8,7 +8,7 @@ namespace SharpGLTF
 {
     class IorExtension : SchemaProcessor
     {
-        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_ior", "material.KHR_materials_ior.schema.json");
+        private static string SchemaUri => Constants.KhronosExtensionPath("KHR_materials_ior", "gltf.KHR_materials_ior.schema.json");
 
         private const string ExtensionRootClassName = "KHR_materials_ior glTF Material Extension";
 
